@@ -19,9 +19,9 @@ int Tridiagonal_solve(const int n, const std::vector<double>& a,
 	x.clear();
 	if ((n < 1) || (a.size() < n) || (b.size() < n) || (c.size() < n) || (rhs.size() < n))
 		return 1; // fail
-NOTE: Not used double alpha[n]; because the Visual studio compiler does not accept it.
-	if n changes, needs to be changed below, ore use another compiler to pass n at run time.
-		double alpha[20000]; // temporary storage
+        //NOTE: Not used double alpha[n]; because the Visual studio compiler does not accept it.
+	//if n changes, needs to be changed below, ore use another compiler to pass n at run time.
+	  double alpha[20000]; // temporary storage
 	  x.reserve(n);
 	  std::fill(x.begin(), x.end(), 0.0);
 
