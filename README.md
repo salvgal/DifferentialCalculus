@@ -6,10 +6,10 @@ ProgramExample1: Taken as input a tri-diagonal linear systems, use the tri-diago
 <br />More info: https://en.wikipedia.org/wiki/Tridiagonal_matrix
 
 ProgramExample2: Taken as input a function and a limited interval, use bisection method to find the roots of the equation to up to 4 decimal points of accurancy. 
-More info: https://en.wikipedia.org/wiki/Bisection_method
+<br />More info: https://en.wikipedia.org/wiki/Bisection_method
 
 ProgramExample3:  Taken as input a function and a limited interval, use mid point method to find the roots of the equationto up to 4 decimal points of accurancy. 
-More info: https://en.wikipedia.org/wiki/Midpoint_method
+<br />More info: https://en.wikipedia.org/wiki/Midpoint_method
 
 ProgramExample4: Taken as input a differential equation, use Runge Kutta method (RK4) to integrate the equation.
-More info: https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods
+<br />More info: https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods
