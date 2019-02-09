@@ -42,3 +42,15 @@ double midpoint(double a, double b, double nmidpoint, double n) {
 	sum = sum * h;
 	return sum;
 }
+
+int main()
+{
+	double n = pow(2, 11);
+	double nmidpoint = 1000;
+
+	double result = 0.0;
+	result = midpoint(0.0, 0.2251, nmidpoint, n);
+	cout << "Total area An: " << result << endl;
+	system("PAUSE");
+	return 0;
+}
